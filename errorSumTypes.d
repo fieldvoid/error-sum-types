@@ -1,4 +1,3 @@
-import std.stdio;
 import std.sumtype;
 
 struct None {
@@ -98,6 +97,7 @@ version (unittest)
     }
 
     Maybe!int print (Maybe!int maybe) {
+        import std.stdio;
         maybe.writeln;
         return maybe;
     }
