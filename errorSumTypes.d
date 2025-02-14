@@ -1,6 +1,5 @@
 import std.stdio;
 import std.sumtype;
-import std.functional;
 
 struct None {
 }
