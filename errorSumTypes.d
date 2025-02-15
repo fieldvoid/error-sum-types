@@ -1,3 +1,5 @@
+module errorSumTypes;
+
 import std.sumtype;
 
 struct None {
